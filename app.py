@@ -2,7 +2,7 @@ from flask import Flask
 from redis import Redis
 
 app = Flask(__name__)
-redis = Redis(host='redis', port=6379)
+redis = Redis(host='10.10.189.180', port=55032, password='vaXk6tGMiym')
 
 @app.route('/')
 def hello():
